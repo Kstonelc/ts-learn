@@ -7,8 +7,9 @@
     "strict": true,
     "skipLibCheck": true,
     "strictNullChecks": true,
+    // 禁止编译错误
+    "noEmitOnError":  true,
     "noImplicitAny": true,
     "outDir": "dist"
   },
-  "include": ["src"]
 }
