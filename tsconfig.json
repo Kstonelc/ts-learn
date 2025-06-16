@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2020",
-    "module": "commonjs",
+    "module": "ES2020",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "strict": true,
@@ -10,6 +10,7 @@
     // 禁止编译错误
     "noEmitOnError":  true,
     "noImplicitAny": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "experimentalDecorators": true, // 开启对装饰器的支持
   },
 }
